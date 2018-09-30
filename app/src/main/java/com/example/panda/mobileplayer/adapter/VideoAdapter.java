@@ -71,8 +71,6 @@ public class VideoAdapter extends BaseAdapter {
         }
 
 
-
-
         return convertView;
     }
     static class ViewHoder{

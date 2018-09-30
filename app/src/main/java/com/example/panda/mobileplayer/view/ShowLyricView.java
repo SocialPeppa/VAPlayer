@@ -7,13 +7,14 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 
 
+
 import com.example.panda.mobileplayer.domain.Lyric;
 import com.example.panda.mobileplayer.utils.DensityUtil;
 
 
 import java.util.ArrayList;
 
-import io.vov.vitamio.utils.Log;
+
 
 
 public class ShowLyricView extends android.support.v7.widget.AppCompatTextView {
@@ -61,7 +62,7 @@ public class ShowLyricView extends android.support.v7.widget.AppCompatTextView {
     protected void onDraw(Canvas canvas) {
         paint = new Paint();
         paint.setTextSize(textHeight);
-        paint.setColor(Color.GREEN);
+        paint.setColor(0xffFF9D00);
         paint.setAntiAlias(true);
         paint.setTextAlign(Paint.Align.CENTER);
         super.onDraw(canvas);

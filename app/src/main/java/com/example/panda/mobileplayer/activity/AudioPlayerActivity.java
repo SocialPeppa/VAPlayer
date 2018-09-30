@@ -46,7 +46,6 @@ public class AudioPlayerActivity extends Activity implements View.OnClickListene
     private static final int PROGRESS = 1;
     private int position;
     private IMusicPlayerService service;
-    private ImageView ivIcon;
     private TextView tvArtist;
     private TextView tvName;
     private TextView tvTime;
@@ -73,7 +72,6 @@ public class AudioPlayerActivity extends Activity implements View.OnClickListene
 
     private void findViews() {
         setContentView(R.layout.activity_audio_player);
-        ivIcon = findViewById(R.id.iv_icon);
         tvArtist = findViewById(R.id.tv_artist);
         tvName = findViewById(R.id.tv_name);
         tvTime = findViewById(R.id.tv_time);

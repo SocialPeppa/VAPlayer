@@ -17,14 +17,13 @@
             android:layout_height="80dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:scaleType="fitXY"
-            android:src="@drawable/video_default" />
+            android:scaleType="fitXY" />
 
         <ImageView
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_margin="5dp"
-            android:src="@drawable/center_collect_play"
+            android:src="@drawable/play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 

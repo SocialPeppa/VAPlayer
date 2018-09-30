@@ -57,11 +57,6 @@ public class NetAudioAdapter extends BaseAdapter {
         viewHoder.tv_desc.setText(mediaItem.getArtist());
       // x.image().bind(viewHoder.iv_icon,mediaItem.getImageUrl());
 
-        RequestOptions requestOptions = new RequestOptions()
-                .placeholder(R.drawable.video_default)
-                .error(R.drawable.video_default);
-
-        Glide.with(context).load(mediaItem.getImageUrl()).apply(requestOptions).into(viewHoder.iv_icon);
 
 
         return convertView;

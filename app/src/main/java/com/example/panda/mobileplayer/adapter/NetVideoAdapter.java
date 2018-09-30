@@ -64,8 +64,8 @@ public class NetVideoAdapter extends BaseAdapter {
       // x.image().bind(viewHoder.iv_icon,mediaItem.getImageUrl());
 
         RequestOptions requestOptions = new RequestOptions()
-                .placeholder(R.drawable.video_default)
-                .error(R.drawable.video_default);
+                .placeholder(null)
+                .error(null);
 
         Glide.with(context).load(mediaItem.getImageUrl()).apply(requestOptions).into(viewHoder.iv_icon);
 

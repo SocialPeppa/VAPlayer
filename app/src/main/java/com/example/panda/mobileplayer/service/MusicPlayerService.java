@@ -47,14 +47,15 @@ public class MusicPlayerService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        if(intent.getExtras()!=null) {
+
+        if(intent.getExtras().getSerializable("audiolist")!=null) {
             mediaItems = (ArrayList<MediaItem>) intent.getExtras().getSerializable("audiolist");
         }
         position=intent.getIntExtra("position",0);
         if(position!=positionTwo){
             openAudio(position);
         }
-        return START_STICKY;
+        return START_NOT_STICKY;
     }
 
 
