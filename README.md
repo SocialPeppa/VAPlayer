@@ -1,3 +1,9 @@
+![image](https://github.com/SocialPeppa/VAPlayer/blob/52a6e3926e34619ced6c68efb56f1920729c2b8c/Screenshot_20180930-163950_%E6%89%8B%E6%9C%BA%E5%BD%B1%E9%9F%B3.jpg)
+
+
+
+
+
 # VAPlayer
 一个简单手机本地视频音频和网络视频音频播放器，集成了第三方视频解码库，网络视频用的是时光网接口，网络音乐是某音乐的排行榜接口。
 
